@@ -1,0 +1,24 @@
+{
+  "name": "pixelight",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron dist/main.js",
+    "dev": "nodemon --watch * --exec \"npm start\"",
+    "build": "gulp",
+    "lint": "eslint --ext .ts,.tsx src/"
+  },
+  "devDependencies": {
+    "electron": "^8.2.1",
+    "eslint": "^6.8.0",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0"
+  },
+  "dependencies": {
+  }
+}
